@@ -1,0 +1,25 @@
+.HP-container {
+  align-items: center;
+  margin: 1rem;
+}
+
+.HP-container p {
+  padding: 2rem;
+  text-align: center;
+}
+.HP-container h1 {
+  text-align: center;
+  white-space: nowrap;
+  font-size: 8vw;
+}
+
+.HP-container h1 em {
+  font-size: 1.2rem;
+}
+
+.HP-container ul {
+  text-align: center;
+  list-style: none;
+  white-space: nowrap;
+  font-style: italic;
+}

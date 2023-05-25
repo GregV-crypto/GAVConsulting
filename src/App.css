@@ -1,0 +1,5 @@
+.main-container {
+  display: flex;
+  /*Components in this will be centered vertically*/
+  flex-direction: column;
+}
