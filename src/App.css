@@ -1,5 +1,16 @@
 .main-container {
   display: flex;
-  /*Components in this will be centered vertically*/
+  /*All components are centered vertically*/
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/*Changing the font size for specific devices*/
+
+@media only screen and (max-width: 915) {
+  .main-container em {
+    color: blue;
+  }
 }

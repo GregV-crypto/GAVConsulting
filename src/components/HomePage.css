@@ -5,7 +5,7 @@
 
 .HP-container p {
   padding: 2rem;
-  text-align: center;
+  text-align: left;
 }
 .HP-container h1 {
   text-align: center;
@@ -18,8 +18,28 @@
 }
 
 .HP-container ul {
-  text-align: center;
+  text-align: left;
   list-style: none;
   white-space: nowrap;
   font-style: italic;
+  /* padding: 0; */
+  margin: 0;
+  padding-left: 2rem;
+}
+
+/*Changing the font size for specific devices*/
+@media only screen and (max-width: 413px) {
+  .HP-container h1 em {
+    white-space: normal;
+    font-size: 4.5vw;
+  }
+  .HP-container p {
+    font-size: 5vw;
+    margin-bottom: 2px;
+  }
+
+  .HP-container ul {
+    font-size: 4.7vw;
+    margin-top: 2px;
+  }
 }

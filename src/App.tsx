@@ -1,5 +1,6 @@
 import "./App.css";
 import HomePage from "./components/HomePage";
+import ContactPage from "./components/ContactPage";
 import "./App.css";
 
 function App() {

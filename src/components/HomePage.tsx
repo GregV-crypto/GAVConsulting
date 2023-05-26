@@ -5,6 +5,8 @@ function HomePage() {
       <h1>
         G.A.V Consulting
         <br></br>
+      </h1>
+      <h1>
         <em>Assistance at the Crossroads of Business and Technology</em>
       </h1>
       <p>
@@ -18,7 +20,8 @@ function HomePage() {
         services include but aren't limited to the following.
       </p>
       <ul>
-        <li>Business Process Management and Consultation</li>
+        <li>Business Process Management</li>
+        <li>Business Process Consultation</li>
         <li>Information Technology Planning</li>
         <li>Strategic Plan Development</li>
         <li>Cash Flow and Inventory Analysis</li>
