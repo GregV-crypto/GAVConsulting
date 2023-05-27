@@ -41,5 +41,10 @@
   .HP-container ul {
     font-size: 4.7vw;
     margin-top: 2px;
+    /* margin-bottom: 4vw; */
+  }
+
+  .HP-container {
+    margin-bottom: 6rem;
   }
 }

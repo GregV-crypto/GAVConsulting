@@ -1,0 +1,38 @@
+/*Handling most mobile devices*/
+.CF-Container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 414px) {
+  .CF-Container input {
+    width: 70vw;
+    padding: 1.5vw;
+    margin-bottom: 0.5rem;
+    border: none;
+    background-color: inherit;
+    border-bottom: 1px solid white;
+  }
+  .CF-Container textarea {
+    resize: none;
+    width: 68vw;
+    padding: 1.5vw;
+    margin-bottom: 0.5rem;
+    border: 1px solid white;
+    background-color: inherit;
+  }
+
+  .CF-Container button {
+    width: 72vw;
+    padding: 1.5vw;
+    margin-bottom: 0.5rem;
+    background-color: darkgrey;
+    border-radius: 10px;
+  }
+
+  .CF-Container h1 {
+    font-size: 8vw;
+  }
+}
