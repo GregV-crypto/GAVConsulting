@@ -1,5 +1,6 @@
+import * as React from "react";
 import "./HomePage.css";
-function HomePage() {
+export default function HomePage() {
   return (
     <div className="HP-container">
       <h1>
@@ -34,4 +35,4 @@ function HomePage() {
     </div>
   );
 }
-export default HomePage;
+

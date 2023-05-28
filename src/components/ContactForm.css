@@ -1,4 +1,9 @@
-/*Handling most mobile devices*/
+/*
+  Greg Vincent
+  May 2023
+*/
+
+/*General Styling*/
 .CF-Container form {
   display: flex;
   flex-direction: column;
@@ -6,7 +11,26 @@
   align-items: center;
 }
 
-@media only screen and (max-width: 414px) {
+.hovering{
+  transition: .5s;
+  background-color: grey;
+  color: white;
+}
+
+.not-hovering{
+  transition: .5s;
+  background-color: black;
+  color: white;
+}
+
+.CF-Container button{
+  background-color: darkgrey;
+  border-radius: 10px;
+
+}
+
+/*Mobile specifications*/
+@media only screen and (max-width: 420px) {
   .CF-Container input {
     width: 70vw;
     padding: 1.5vw;
@@ -28,11 +52,64 @@
     width: 72vw;
     padding: 1.5vw;
     margin-bottom: 0.5rem;
-    background-color: darkgrey;
-    border-radius: 10px;
   }
 
   .CF-Container h1 {
     font-size: 8vw;
   }
+
+  
+}
+
+/*Medium screen sizes and tablets*/
+@media only screen and (min-width:430px) and (max-width:1300px){
+  .CF-Container input {
+    width: 70vw;
+    padding: 1.5vw;
+    border: none;
+    background-color: inherit;
+    border-bottom: 1px solid white;
+  }
+
+  /*Name and Email Input*/
+  #name{
+    margin-bottom: 3vh;
+  }
+
+  #email{
+    margin-bottom: 3vh;
+  }
+
+  #message{
+    margin-top: 1vh;
+    width: 70vw;
+  }
+  
+  .CF-Container input::placeholder{
+    font-size: 4vw;
+  }
+
+  .CF-Container textarea::placeholder{
+    font-size: 3.5vw;
+  }
+
+  .CF-Container textarea {
+    resize: none;
+    width: 68vw;
+    padding: 1.5vw;
+    margin-bottom: 2vh;
+    border: 1px solid white;
+    background-color: inherit;
+    font-size: 3.5vw;
+  }
+
+  .CF-Container button {
+    width: 74vw;
+    padding: 1.5vw;
+    margin-bottom: 0.5rem;
+    font-size: 3vw;
+    border-radius: 10px;
+  }
+
+  
 }

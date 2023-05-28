@@ -1,5 +1,7 @@
+/*General Rules/Desktop Specification*/
 .HP-container {
   align-items: center;
+  justify-content: center;
   margin: 1rem;
 }
 
@@ -27,8 +29,8 @@
   padding-left: 2rem;
 }
 
-/*Changing the font size for specific devices*/
-@media only screen and (max-width: 413px) {
+/*Mobile Specifications*/
+@media only screen and (max-width: 415px) {
   .HP-container h1 em {
     white-space: normal;
     font-size: 4.5vw;
@@ -48,3 +50,25 @@
     margin-bottom: 6rem;
   }
 }
+
+/*Tablet Specifications*/
+@media only screen and (min-width:430px) and (max-width:1300px){
+  .HP-container h1 em {
+    font-size: 4vw;
+    white-space: normal; 
+  }
+
+  .HP-container{
+    margin-bottom: 15vh;
+  }
+
+  .HP-container p{
+    text-align: center;
+    font-size: 4vw;
+  }
+  
+  .HP-container ul{
+    text-align: center;
+    font-size: 4vw;
+  }
+} 

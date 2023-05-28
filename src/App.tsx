@@ -1,7 +1,7 @@
 import "./App.css";
 import HomePage from "./components/HomePage";
 import ContactForm from "./components/ContactForm";
-import "./App.css";
+import * as React from "react";
 
 function App() {
   return (
