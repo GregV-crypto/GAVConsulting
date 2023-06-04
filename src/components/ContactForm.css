@@ -3,7 +3,12 @@
   May 2023
 */
 
-/*General Styling*/
+/*General Styling and Desktop Styling*/
+
+.CF-Container {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
 .CF-Container form {
   display: flex;
   flex-direction: column;
@@ -11,22 +16,52 @@
   align-items: center;
 }
 
-.hovering{
-  transition: .5s;
-  background-color: grey;
-  color: white;
+.btn-hovering {
+  transition: 0.5s;
+  background-color: darkgrey;
 }
 
-.not-hovering{
-  transition: .5s;
+.btn-not-hovering {
+  transition: 0.5s;
   background-color: black;
   color: white;
+  border-radius: 10px;
 }
 
-.CF-Container button{
-  background-color: darkgrey;
-  border-radius: 10px;
+.CF-Container input {
+  width: 20vw;
+  height: 4.5vh;
+  margin-bottom: 2vh;
+  font-size: 1.05vw;
+}
 
+.CF-Container input::placeholder {
+  padding-top: 0.5vw;
+  padding-left: 0.5vw;
+  font-size: 0.9vw;
+}
+
+.CF-Container textarea {
+  width: 20vw;
+  height: 10vh;
+  resize: none;
+  font-size: 1.05vw;
+}
+
+.CF-Container textarea::placeholder {
+  padding-top: 0.5vw;
+  padding-left: 0.5vw;
+  font-size: 0.9vw;
+}
+
+.CF-Container button {
+  width: 20.5vw;
+  margin-top: 1vh;
+}
+
+.not-usable {
+  opacity: 20%;
+  pointer-events: none;
 }
 
 /*Mobile specifications*/
@@ -57,12 +92,10 @@
   .CF-Container h1 {
     font-size: 8vw;
   }
-
-  
 }
 
 /*Medium screen sizes and tablets*/
-@media only screen and (min-width:430px) and (max-width:1300px){
+@media only screen and (min-width: 430px) and (max-width: 1300px) {
   .CF-Container input {
     width: 70vw;
     padding: 1.5vw;
@@ -72,24 +105,24 @@
   }
 
   /*Name and Email Input*/
-  #name{
+  #name {
     margin-bottom: 3vh;
   }
 
-  #email{
+  #email {
     margin-bottom: 3vh;
   }
 
-  #message{
+  #message {
     margin-top: 1vh;
     width: 70vw;
   }
-  
-  .CF-Container input::placeholder{
+
+  .CF-Container input::placeholder {
     font-size: 4vw;
   }
 
-  .CF-Container textarea::placeholder{
+  .CF-Container textarea::placeholder {
     font-size: 3.5vw;
   }
 
@@ -110,6 +143,4 @@
     font-size: 3vw;
     border-radius: 10px;
   }
-
-  
 }

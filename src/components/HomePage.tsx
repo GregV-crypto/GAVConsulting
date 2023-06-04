@@ -7,7 +7,7 @@ export default function HomePage() {
         G.A.V Consulting
         <br></br>
       </h1>
-      <h1>
+      <h1 id="tagline">
         <em>Assistance at the Crossroads of Business and Technology</em>
       </h1>
       <p>
@@ -35,4 +35,3 @@ export default function HomePage() {
     </div>
   );
 }
-

@@ -7,7 +7,10 @@
 
 .HP-container p {
   padding: 2rem;
-  text-align: left;
+  text-align: center;
+  font-size: 1.5vw;
+  margin-left: 12vw;
+  margin-right: 12vw;
 }
 .HP-container h1 {
   text-align: center;
@@ -15,16 +18,17 @@
   font-size: 8vw;
 }
 
-.HP-container h1 em {
-  font-size: 1.2rem;
+#tagline {
+  font-size: 2vw;
+  margin-top: -4vh;
 }
 
 .HP-container ul {
-  text-align: left;
+  text-align: center;
   list-style: none;
   white-space: nowrap;
   font-style: italic;
-  /* padding: 0; */
+  font-size: 1.8vw;
   margin: 0;
   padding-left: 2rem;
 }
@@ -52,23 +56,23 @@
 }
 
 /*Tablet Specifications*/
-@media only screen and (min-width:430px) and (max-width:1300px){
+@media only screen and (min-width: 430px) and (max-width: 1300px) {
   .HP-container h1 em {
     font-size: 4vw;
-    white-space: normal; 
+    white-space: normal;
   }
 
-  .HP-container{
+  .HP-container {
     margin-bottom: 15vh;
   }
 
-  .HP-container p{
+  .HP-container p {
     text-align: center;
     font-size: 4vw;
   }
-  
-  .HP-container ul{
+
+  .HP-container ul {
     text-align: center;
     font-size: 4vw;
   }
-} 
+}
