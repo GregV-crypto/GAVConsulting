@@ -4,7 +4,6 @@
 */
 
 /*General Styling and Desktop Styling*/
-
 .CF-Container {
   margin-top: 5vh;
   margin-bottom: 5vh;
@@ -17,12 +16,12 @@
 }
 
 .btn-hovering {
-  transition: 0.5s;
-  background-color: darkgrey;
+  transition: 0.8s;
+  background-color: rgb(58, 56, 56);
 }
 
 .btn-not-hovering {
-  transition: 0.5s;
+  transition: 0.8s;
   background-color: black;
   color: white;
   border-radius: 10px;
@@ -57,11 +56,20 @@
 .CF-Container button {
   width: 20.5vw;
   margin-top: 1vh;
+  opacity: 100%;
 }
 
+/*Conditional Rendering styles*/
 .not-usable {
-  opacity: 20%;
+  text-align: center;
+}
+.not-usable button {
+  opacity: 60%;
   pointer-events: none;
+}
+.not-usable p {
+  color: red;
+  font-size: 3vw;
 }
 
 /*Mobile specifications*/
@@ -73,6 +81,7 @@
     border: none;
     background-color: inherit;
     border-bottom: 1px solid white;
+    font-size: 4vw;
   }
   .CF-Container textarea {
     resize: none;
@@ -81,6 +90,7 @@
     margin-bottom: 0.5rem;
     border: 1px solid white;
     background-color: inherit;
+    font-size: 4vw;
   }
 
   .CF-Container button {
@@ -92,6 +102,13 @@
   .CF-Container h1 {
     font-size: 8vw;
   }
+  .CF-Container input::placeholder {
+    font-size: 4vw;
+  }
+
+  .CF-Container textarea::placeholder {
+    font-size: 3.5vw;
+  }
 }
 
 /*Medium screen sizes and tablets*/
@@ -102,6 +119,7 @@
     border: none;
     background-color: inherit;
     border-bottom: 1px solid white;
+    font-size: 3.5vw;
   }
 
   /*Name and Email Input*/

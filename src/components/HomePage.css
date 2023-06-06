@@ -7,7 +7,7 @@
 
 .HP-container p {
   padding: 2rem;
-  text-align: center;
+  text-align: left;
   font-size: 1.5vw;
   margin-left: 12vw;
   margin-right: 12vw;
@@ -39,19 +39,28 @@
     white-space: normal;
     font-size: 4.5vw;
   }
+
   .HP-container p {
     font-size: 5vw;
-    margin-bottom: 2px;
+    margin-bottom: 1vh;
+    width: 70%;
   }
 
   .HP-container ul {
+    margin-right: 5vw;
     font-size: 4.7vw;
-    margin-top: 2px;
-    /* margin-bottom: 4vw; */
   }
 
   .HP-container {
     margin-bottom: 6rem;
+  }
+
+  .HP-container h1 {
+    margin-bottom: 6vh;
+  }
+
+  #tagline {
+    margin-bottom: -4vh;
   }
 }
 
@@ -74,5 +83,10 @@
   .HP-container ul {
     text-align: center;
     font-size: 4vw;
+    margin-right: 5vw;
+  }
+
+  .HP-container h1 {
+    margin-bottom: 6vh;
   }
 }
